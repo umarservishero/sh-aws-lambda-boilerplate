@@ -54,7 +54,7 @@ gulp.task('deployzip', function() {
         FunctionName: buildname,
         Description: package.description,
         Role: lambdaenv.Role,
-        Runtime: 'nodejs4.3',
+        Runtime: 'nodejs6.10',
         Publish: true
     }, lambdaoptions = {
         region: lambdaenv.Region

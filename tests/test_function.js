@@ -1,6 +1,3 @@
-// 4.3 doesn't support blocked scope declaration outside of strict mode
-'use strict';
-
 const expect = require('expect');
 const lambda = require('lambda-wrapper');
 const lambdaFunc = require('../src/index.js');

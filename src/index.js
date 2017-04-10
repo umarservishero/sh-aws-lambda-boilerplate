@@ -1,5 +1,3 @@
-// 4.3 doesn't support blocked scope declaration outside of strict mode
-'use strict';
 /**
 * @api {get} /skeleton API endpoint address
 * @apiName apiName (e.g. accounts)
